@@ -37,7 +37,7 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Hi, I'm <span class="highlight">Nitheesh Kumar</span></h1>
+                    <h1>Hi, I'm <span class="typing-wrapper"><span class="highlight" id="typed-name" data-text="Nitheesh Kumar"></span><span class="typing-cursor" aria-hidden="true">|</span></span></h1>
                     <h2>Machine Learning Aspirant, SDE Enthusiast and Full Stack Developer</h2>
                     <p>I create ML models and functional websites with a focus on user experience and clean code.</p>
                     <div class="cta-buttons">
@@ -46,8 +46,27 @@
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img alt="profile image" src="images/profile-img.jpg" class="image-placeholder">
-                </img>
+                    <div class="hero-figure">
+                        <span class="hero-glow"></span>
+                        <div class="hero-photo">
+                            <img alt="profile image" src="images/profile-img.jpg" class="image-placeholder">
+                        </img>
+                        </div>
+                        <div class="hero-badge badge-top">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <p>Hands-on</p>
+                                <h4>Projects & ML Apps</h4>
+                            </div>
+                        </div>
+                        <div class="hero-badge badge-bottom">
+                            <i class="fas fa-star"></i>
+                            <div>
+                                <p>Core Skills</p>
+                                <h4>Web · ML · Data</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,30 +75,67 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-image">
-                    <img alt="about image" src="images/about.jpg" class="image-placeholder">
-                </img>
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-card reveal">
+                <div class="about-visual">
+                    <div class="about-photo">
+                        <img alt="about image" src="images/about.jpg" class="image-placeholder">
+                    </img>
+                    </div>
+                    <div class="about-tag">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Pre-final year @ Rajalakshmi Institute of Technology</span>
+                    </div>
                 </div>
-                <div class="about-text">
-                    <p>I'm a passionate pre-final year student studying at Rajalakshmi Institute of Technology. I specialize in Web Development, Data Analytics, Machine Learning and Data Scientist.</p>
-                    <p>My approach combines technical expertise with an eye for design, ensuring that every project I work on is both functional and visually appealing.</p>
-                    <div class="about-details">
-                        <div class="detail">
-                            <strong>Name:</strong> Nitheesh Kumar R
+                <div class="about-body">
+                    <div class="about-bio">
+                        <p class="lead">I'm a passionate pre-final year student focused on building human-centered digital experiences.</p>
+                        <p>I specialize in Web Development, Data Analytics, Machine Learning and Data Science, blending technical depth with design empathy to craft solutions that are both functional and visually appealing.</p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Full Stack Development</h4>
+                                <p>Clean, maintainable codebases with responsive UI patterns.</p>
+                            </div>
                         </div>
-                        <div class="detail">
-                            <strong>Email:</strong> rnitheeshkumarr@gmail.com
+                        <div class="highlight-card">
+                            <i class="fas fa-robot"></i>
+                            <div>
+                                <h4>Machine Learning</h4>
+                                <p>Insight-driven models with measurable business impact.</p>
+                            </div>
                         </div>
-                        <div class="detail">
-                            <strong>Location:</strong> Chennai,Tamil Nadu
-                        </div>
-                        <div class="detail">
-                            <strong>Availability:</strong> Open to new opportunities
+                        <div class="highlight-card">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h4>Data Analytics</h4>
+                                <p>Storytelling dashboards and data-backed decisions.</p>
+                            </div>
                         </div>
                     </div>
-                    <a target="_blank" title="Open resume in new tab" href="assets/Nitheesh Kumar R.pdf" class="btn primary">View Resume</a>
+                    <div class="about-info-grid">
+                        <div class="info-item">
+                            <span class="info-label">Name</span>
+                            <span class="info-value">Nitheesh Kumar R</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email</span>
+                            <a class="info-link" href="mailto:rnitheeshkumarr@gmail.com">rnitheeshkumarr@gmail.com</a>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location</span>
+                            <span class="info-value">Chennai, Tamil Nadu</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Availability</span>
+                            <span class="info-value">Open to new opportunities</span>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a target="_blank" title="Open resume in new tab" href="assets/Nitheesh Kumar R.pdf" class="btn primary">View Resume</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -88,8 +144,8 @@
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title">My Skills</h2>
-            <div class="skills-container">
+            <h2 class="section-title reveal">My Skills</h2>
+            <div class="skills-container reveal">
                 <div class="skill-category">
                     <h3>Web Development</h3>
                     <div class="skill">
@@ -188,8 +244,8 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects-grid">
+            <h2 class="section-title reveal">My Projects</h2>
+            <div class="projects-grid reveal">
                 <div class="project-card">
                     <div class="project-image">
                         <img alt="project-1 image" src="images/project-1.jpg" class="image-placeholder">
@@ -259,8 +315,8 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
+            <h2 class="section-title reveal">Get In Touch</h2>
+            <div class="contact-content reveal">
                 <div class="contact-info">
                     <h3>Let's work together</h3>
                     <p>I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd like to discuss a project or just say hello!</p>
@@ -306,9 +362,37 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2025 Nitheesh Kumar. All rights reserved.</p>
+            <div class="footer-content reveal">
+                <div class="footer-brand">
+                    <h3>Nitheesh Kumar</h3>
+                    <p>Building impactful products where data, design, and engineering meet.</p>
+                    <a href="#contact" class="footer-cta">Let's collaborate <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i><a href="tel:+916379374116">+91 63793 74116</a></li>
+                        <li><i class="fas fa-envelope"></i><a href="mailto:rnitheeshkumarr@gmail.com">rnitheeshkumarr@gmail.com</a></li>
+                        <li><i class="fab fa-github"></i><a target="_blank" href="https://github.com/NitheeshKumarR">github.com/NitheeshKumarR</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nitheesh Kumar. All rights reserved.</p>
+                <a href="#home" class="back-to-top"><i class="fas fa-angle-up"></i></a>
+            </div>
         </div>
     </footer>
 
